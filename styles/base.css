@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #454ade;
+  --secondary-color: #1b1f3b;
+  --accent1-color: #b14aed;
+  --accent2-color: #c874d9;
+  --accent3-color: #e1bbc9;
+  font-family: "Inter", sans-serif;
+}
+
+/* Placeholder colors for now. */
+
+header {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px;
+  max-width: 75%;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  text-align: center;
+}

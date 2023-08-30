@@ -4,7 +4,7 @@
   --accent1-color: #b14aed;
   --accent2-color: #c874d9;
   --accent3-color: #e1bbc9;
-  font-family: "Inter", sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
 }
 
 /* Placeholder colors for now. */
@@ -19,4 +19,32 @@ header {
   margin-right: auto;
   border-radius: 5px;
   text-align: center;
+}
+
+.art-container {
+  display: grid;
+  justify-content: center;
+
+  grid-column-gap: 5%;
+  grid-template-columns: repeat(3, auto);
+}
+
+.image-unloaded {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.image-loaded {
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+
+.art-container > img {
+  max-width: 100px;
+}
+
+#placeholder {
+  background-image: url("../images/placeholder2.png");
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
 }

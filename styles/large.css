@@ -1,0 +1,8 @@
+@media only screen and (min-width: 60em) {
+  #query-checker {
+    color: #a10000;
+  }
+  body {
+    display: grid;
+  }
+}

@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Bun Hatter Art</title>
 
-    <link rel="stylesheet" href="styles/base.css" />
     <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
 
     <link
       rel="icon"
@@ -18,11 +20,34 @@
   </head>
 
   <body>
-    <header><h1>More to be coming soon!</h1></header>
+    <header><h1 id="query-checker">More to be coming soon!</h1></header>
 
-    <main></main>
+    <main>
+      <div class="art-container">
+        <img
+          class="image-unloaded"
+          id="placeholder"
+          src="images/placeholder2.png"
+          data-src="images/unplaceholder.png"
+        />
+        <img
+          class="image-unloaded"
+          id="placeholder"
+          src="images/placeholder2.png"
+          data-src="images/unplaceholder.png"
+        />
+        <img
+          class="image-unloaded"
+          id="placeholder"
+          src="images/placeholder2.png"
+          data-src="images/unplaceholder.png"
+        />
+      </div>
+    </main>
 
     <footer></footer>
+
+    <script src="scripts/lazyloading.js"></script>
     <!-- Made by L.C. Harris. -->
   </body>
 </html>

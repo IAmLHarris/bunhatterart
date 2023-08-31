@@ -21,6 +21,14 @@ header {
   text-align: center;
 }
 
+img {
+  max-width: 100px;
+}
+
+img .image-loaded {
+  max-width: 100px;
+}
+
 .art-container {
   display: grid;
   justify-content: center;
@@ -39,6 +47,11 @@ header {
   transition: 0.5s linear;
 }
 
+.image-hidden {
+  opacity: 0;
+  display: none;
+}
+
 .art-container > img {
   max-width: 100px;
 }
@@ -47,4 +60,44 @@ header {
   background-image: url("../images/placeholder2.png");
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
+}
+
+.pet-tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3%;
+}
+.pet-buttons {
+  margin: 1rem;
+  border: 1px solid;
+  padding: 0.5rem;
+  background-color: var(--secondary-color);
+  /* text-align: center; */
+}
+
+/* .pet-cards {
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.dogcard {
+  background-color: var(--accent2-color);
+}
+.pet-cards > card {
+  background-color: var(--accent2-color);
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0%;
+  left: 0%;
+
+  background-color: var(--accent2-color);
+  max-width: fit-content;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
 }

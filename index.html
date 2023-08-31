@@ -43,11 +43,33 @@
           data-src="images/unplaceholder.png"
         />
       </div>
+      <div class="pet-tabs">
+        <div class="pet-buttons">
+          <button id="dog">Dog</button>
+          <button id="cat">Cat</button>
+          <button id="bun">Bunny</button>
+        </div>
+
+        <div class="pet-cards">
+          <card class="image-loaded" id="dogcard">
+            <img src="images/unplaceholder.png" />
+          </card>
+
+          <card class="image-hidden" id="catcard">
+            <img src="images/placeholder.png" />
+          </card>
+
+          <card class="image-hidden" id="buncard">
+            <img src="images/placeholder2.png" />
+          </card>
+        </div>
+      </div>
     </main>
 
-    <footer></footer>
+    <footer><p>Made by L.C. Harris, 8harrisl@gmail.com</p></footer>
 
     <script src="scripts/lazyloading.js"></script>
+    <script src="scripts/pet-tab-buttons.js"></script>
     <!-- Made by L.C. Harris. -->
   </body>
 </html>
